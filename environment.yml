@@ -1,12 +1,12 @@
 name: nes
 channels:
-  - defaults
-  - conda-forge
+- defaults
+- conda-forge
 dependencies:
-  - python=3.6.8
-  - cython
-  - numpy=1.16.3
-  - gpy=1.9.8
-  - matplotlib=3.1.0
-pip:
-  - sobol_seq
+- python=3.6.8
+- cython
+- numpy=1.16.3
+- gpy=1.9.8
+- matplotlib=3.1.0
+- pip:
+    - sobol_seq
